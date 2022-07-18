@@ -17,6 +17,7 @@ import Privacy from "./components/pages-components/Privacy";
 import SingIn from "./components/pages-components/SingIn";
 import SingUp from "./components/pages-components/SingUp";
 import Team from "./components/pages-components/Team";
+import ComingSoon from "./components/pages-components/ComingSoon";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -33,6 +34,7 @@ root.render(
                     <Route path="/blog-single" element={<BlogSingle/>}/>
                     <Route path="/career" element={<Career/>}/>
                     <Route path="/error" element={<Error404/>}/>
+                    <Route path="/coming-soon" element={<ComingSoon/>}/>
                     <Route path="/FAQ" element={<FAQ/>}/>
                     <Route path="/privacy" element={<Privacy/>}/>
                     <Route path="/sing-in" element={<SingIn/>}/>
