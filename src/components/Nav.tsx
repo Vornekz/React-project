@@ -100,6 +100,7 @@ const Nav = () => {
         <div className="Nav">
             <div className="logo">
                 <img src={logo} alt="Logo" className="logo_img"/>
+                <a href="/"/>
             </div>
             <nav className="nav-links">
                 <ul>

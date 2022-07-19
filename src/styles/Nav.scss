@@ -6,9 +6,19 @@
 
   .logo {
     padding: 10px 0;
+    position: relative;
     display: flex;
     flex-grow: 4;
     justify-content: flex-start;
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150px;
+      height: 100%;
+      z-index: 1;
+    }
 
     &__img {
       width: 100%;
@@ -71,7 +81,6 @@
     width: 150px;
     top: 120%;
     opacity: 0;
-    z-index: -1;
     background-color: #fff;
     transition: 0.2s;
 

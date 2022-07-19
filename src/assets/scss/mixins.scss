@@ -1,3 +1,33 @@
 @mixin adaptivePadding($height: 0, $width: 15vw) {
   padding: $height $width;
 }
+
+@mixin blueButton($width: 210px) {
+  height: 60px;
+  width: $width;
+  border-radius: 5px;
+  border: none;
+  background-color: #2e7eed;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@mixin decorContainer($top, $left, $width, $height) {
+  top: $top;
+  left: $left;
+  width: $width;
+  height: $height;
+  position: relative;
+
+  &:before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: rotate(-35deg);
+    position: absolute;
+    border-radius: 50px;
+  }
+}
