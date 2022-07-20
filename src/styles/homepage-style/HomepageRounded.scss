@@ -1,0 +1,40 @@
+.HomepageRounded {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+  position: relative;
+  top: -90px;
+  width: 70%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #85858a;
+  text-align: center;
+
+  &__block {
+    width: 320px;
+    margin-bottom: 20px;
+
+    &-icon {
+      width: 35px;
+      height: 35px;
+      color: #2e7ef0;
+      margin-bottom: 20px;
+    }
+
+    &-title {
+      font-size: 22px;
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      color: #85858a;
+    }
+  }
+
+
+
+
+}

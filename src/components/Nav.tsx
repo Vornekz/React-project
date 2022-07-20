@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {solid} from '@fortawesome/fontawesome-svg-core/import.macro'
 import logo from "assets/image/logo.png"
 import "styles/Nav.scss"
 import {Link, useLocation} from "react-router-dom";
 
-const Nav = () => {
+const Nav:FC = () => {
     let location = useLocation().pathname;
 
     interface linksInterface {
