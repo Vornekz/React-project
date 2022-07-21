@@ -8,6 +8,7 @@ import HomepageRounded from "./homepage-components/HomepageRounded";
 import HomepageFeature from "./homepage-components/HomepageFeature";
 import HomepageFeatureMain1 from "./homepage-components/HomepageFeatureMain1";
 import HomepageFeatureMain2 from "./homepage-components/HomepageFeatureMain2";
+import HomepageService from "./homepage-components/HomepageService";
 
 const Homepage:FC = () => {
     return (
@@ -16,6 +17,7 @@ const Homepage:FC = () => {
             <HomepageRounded/>
             <HomepageFeature phone={phone1} homePage={<HomepageFeatureMain1 photo={photo}/>}/>
             <HomepageFeature order={1} phone={phone2} homePage={<HomepageFeatureMain2 photo={photo}/>}/>
+            <HomepageService/>
         </div>
     );
 };
