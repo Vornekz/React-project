@@ -1,0 +1,59 @@
+
+
+.HomepageVideo {
+  background: url("../../assets/image/background/promo-video-back.jpg") fixed no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+
+  .video-content {
+    display: flex;
+    margin: 0 auto;
+    max-width: 700px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    &__info {
+      margin-bottom: 25px;
+      color: #85858a;
+    }
+
+    &__button {
+      width: 100px;
+      height: 100px;
+      outline: none;
+      border-radius: 50%;
+      background-color: #2e7ef0;
+      &-svg {
+        width: 50px;
+        height: 50px;
+        color: #fff;
+      }
+    }
+
+    &__video {
+      //display: none;
+      position: fixed;
+      z-index: 1;
+      top: 20vh;
+    }
+
+    &__background {
+      content: "";
+      display: block;
+      position: fixed;
+      top: 0;
+      z-index: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+  }
+}

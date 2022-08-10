@@ -9,6 +9,7 @@ import HomepageFeature from "./homepage-components/HomepageFeature";
 import HomepageFeatureMain1 from "./homepage-components/HomepageFeatureMain1";
 import HomepageFeatureMain2 from "./homepage-components/HomepageFeatureMain2";
 import HomepageService from "./homepage-components/HomepageService";
+import HomepageVideo from "./homepage-components/HomepageVideo";
 
 const Homepage:FC = () => {
     return (
@@ -18,6 +19,7 @@ const Homepage:FC = () => {
             <HomepageFeature phone={phone1} homePage={<HomepageFeatureMain1 photo={photo}/>}/>
             <HomepageFeature order={1} phone={phone2} homePage={<HomepageFeatureMain2 photo={photo}/>}/>
             <HomepageService/>
+            <HomepageVideo/>
         </div>
     );
 };
