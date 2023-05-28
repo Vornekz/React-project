@@ -1,0 +1,62 @@
+@import "assets/scss/mixins.scss";
+
+.Homepage2Introducing {
+    display: flex;
+    justify-content: space-around;
+    @include adaptivePadding(100px);
+
+
+    &__img {
+        padding: 0 50px;
+        transition: 1s;
+
+        img {
+            animation: rotate 1s linear;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotateY(90deg);
+            }
+
+            to {
+                transform: rotateY(0);
+            }
+        }
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 0;
+
+        &-logo {
+            width: 150px;
+        }
+
+        &-title {
+            width: 600px;
+            font-size: 50px;
+            font-weight: 100;
+            color: #343434;
+        }
+
+        &-info {
+            width: 400px;
+            font-size: 22px;
+            color: #979895;
+        }
+
+        .main-download {
+            &__button {
+                margin-right: 20px;
+                img {
+                    object-fit: contain;
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

@@ -100,7 +100,7 @@ const Nav:FC = () => {
         <div className="Nav">
             <div className="logo">
                 <img src={logo} alt="Logo" className="logo_img"/>
-                <a href="/"/>
+                <a href="/"> </a>
             </div>
             <nav className="nav-links">
                 <ul>

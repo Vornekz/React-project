@@ -1,0 +1,42 @@
+@import "assets/scss/mixins";
+
+.HomepagePlatform {
+    @include adaptivePadding(100px);
+    background-color:#2e7eed;
+    color: #ffffff;
+    text-align: center;
+
+    &__title {
+        font-size: 48px;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        max-width: 500px;
+        margin: 0 auto 60px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        &-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include blueButton(200px, 50px);
+            border: 1px white solid;
+            border-radius: 30px;
+            margin-right: 25px;
+            text-decoration: none;
+        }
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+}

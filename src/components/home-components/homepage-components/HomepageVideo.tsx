@@ -4,7 +4,7 @@ import {regular} from "@fortawesome/fontawesome-svg-core/import.macro";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const HomepageVideo: FC = () => {
-    const [onVideo, setOnVideo] = useState<Boolean>(false);
+    const [onVideo, setOnVideo] = useState<boolean>(false);
 
     const onOfVideo = () => {
         setOnVideo(!onVideo);

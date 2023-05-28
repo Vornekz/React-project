@@ -1,4 +1,4 @@
-import React, {FC} from 'react';
+import {FC} from 'react';
 import phone from "../../../assets/image/mobile.png";
 import "styles/homepage-style/HomepageDownload.scss"
 

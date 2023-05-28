@@ -3,7 +3,7 @@ import "styles/homepage-style/HomepageRounded.scss"
 import {regular, solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const HomepageRounded:FC = () => {
+const HomepageRounded: FC = () => {
     return (
         <div className="HomepageRounded">
             <div className="HomepageRounded__block">
@@ -12,7 +12,8 @@ const HomepageRounded:FC = () => {
                     Themes Made Easy
                 </h3>
                 <p className="HomepageRounded__block-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam
+                    dignissimos molestias.
                 </p>
             </div>
             <div className="HomepageRounded__block">
@@ -21,7 +22,8 @@ const HomepageRounded:FC = () => {
                     Powerful Design
                 </h3>
                 <p className="HomepageRounded__block-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam
+                    dignissimos molestias.
                 </p>
             </div>
             <div className="HomepageRounded__block">
@@ -30,7 +32,8 @@ const HomepageRounded:FC = () => {
                     Creative Content
                 </h3>
                 <p className="HomepageRounded__block-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam dignissimos molestias.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae tempore ipsam
+                    dignissimos molestias.
                 </p>
             </div>
         </div>
