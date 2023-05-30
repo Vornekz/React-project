@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Vornekz/React-project/static/css/main.0ba8a71c.css",
+    "main.js": "/Vornekz/React-project/static/js/main.a084a0cb.js",
+    "static/js/787.a2bf511c.chunk.js": "/Vornekz/React-project/static/js/787.a2bf511c.chunk.js",
+    "static/media/promo-video-back.jpg": "/Vornekz/React-project/static/media/promo-video-back.2f61c4ce852bd473966e.jpg",
+    "static/media/feature-new-02.jpg": "/Vornekz/React-project/static/media/feature-new-02.75f6bb1e208567b76fe3.jpg",
+    "static/media/feature-new-01.jpg": "/Vornekz/React-project/static/media/feature-new-01.1cd6d780c887d5e7b0f3.jpg",
+    "static/media/iphone-ipad.jpg": "/Vornekz/React-project/static/media/iphone-ipad.cab2fe3c4669736619c0.jpg",
+    "static/media/mobile.png": "/Vornekz/React-project/static/media/mobile.7f680b3efaabd94f6a17.png",
+    "static/media/iphone-black.jpg": "/Vornekz/React-project/static/media/iphone-black.c7a089eb91ffa618ea4c.jpg",
+    "static/media/slick.svg": "/Vornekz/React-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Vornekz/React-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Vornekz/React-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Vornekz/React-project/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Vornekz/React-project/index.html",
+    "main.0ba8a71c.css.map": "/Vornekz/React-project/static/css/main.0ba8a71c.css.map",
+    "main.a084a0cb.js.map": "/Vornekz/React-project/static/js/main.a084a0cb.js.map",
+    "787.a2bf511c.chunk.js.map": "/Vornekz/React-project/static/js/787.a2bf511c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ba8a71c.css",
+    "static/js/main.a084a0cb.js"
+  ]
+}
